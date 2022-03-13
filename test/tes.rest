@@ -1,0 +1,20 @@
+POST http://localhost:3000/register 
+Content-Type: application/json
+
+{
+    "username": "Squishey",
+    "password": "password"
+}
+###
+POST http://localhost:3000/login 
+Content-Type: application/json
+
+{
+    "username": "Squishey",
+    "password": "password"
+}
+###
+GET http://localhost:3000/logout
+###
+
+GET http://localhost:3000/api/v1/get-file/jani.JPG
